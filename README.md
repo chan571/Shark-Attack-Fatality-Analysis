@@ -124,12 +124,13 @@ aus_sa
 <img width="358" alt="Screenshot 2024-02-13 at 7 23 09 PM" src="https://github.com/cp571/Data-Cleaning/assets/157858508/c1e0a9bf-074e-47a6-af50-88a4899c3ca5">
 
 
+
 Note:
 There are a few ethical issues with this data. The sources from which this data is extracted vary, with some having questionable validity.For example, some cases date back to B.C. The data collection method should be examined. Moreover, a significant amount of data is missing, as we discovered earlier, with more than half of the cases missing ‘Year’ values. This will impact the accuracy of the analysis results, considering that ‘Year’ is a crucial variable in our analysis.
 
 Furthermore, relying solely on the number of incidents and fatality rates may not provide enough information to support the argument that South Africa is more dangerous in terms of shark attacks. Other variables, such as related policies and medical resources, may also influence the likelihood of people getting injured by sharks and the fatality rate.
 
-It is possible that people think it is the ‘fact’ that South Africa is more dangerous than Australia without delving deeper into other factors that may also influence the final analysis result. If the information is misused, it will definitely hurt South Africa’s tourism industry.
+It is possible that people think it is the ‘fact’ that South Africa is more dangerous than Australia without delving deeper into other factors that may also influence the final analysis result. 
 
 
 
