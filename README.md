@@ -1,3 +1,4 @@
+## Introduction
 As part of this practice, we are tackling fundamental programming tasks in R, focusing on data cleaning and exploratory analysis. 
 We are working on Global Shark Attack file, a compilation of all reported shark attacks on humans. 
 The question we aim to address is: Which country, Australia or South Africa, poses a greater risk in terms of shark attacks on people?
@@ -5,12 +6,13 @@ The question we aim to address is: Which country, Australia or South Africa, pos
 Let's get started!
 
 
-Load standard library
+## Load standard library
 ```
 library("tidyverse")
 library("dplyr")
 library("ggplot2")
 ```
+## Data Exploration and Cleaning
 
 There are 24 variables and 25827 cases in this data
 ```
@@ -84,7 +86,6 @@ after_2012_all
 ```
 <img width="109" alt="Screenshot 2024-02-13 at 7 10 46 PM" src="https://github.com/cp571/Data-Cleaning/assets/157858508/a61d5bae-e932-42a0-803f-b5f55fd93569">
 
-
 Now it is time to analyze if the attack was fatal. 
 
 There are 8 different values in the Fatal variable, with most of them likely resulting from input errors, as they each have only 1-2 observations. 
@@ -108,6 +109,7 @@ head(rename_data, 10)
 ```
 <img width="363" alt="Screenshot 2024-02-13 at 7 20 36 PM" src="https://github.com/cp571/Data-Cleaning/assets/157858508/eed6960c-6ada-40f5-84d9-6efd1f46019b">
 
+## Data Analysis
 Finally, we can answer the question about which country is more dangerous, Australia or South Africa?
 The result shows South Africa not only has more than double the number of reported cases compared to Australia but also a higher fatality rate. 
 Therefore, based solely on these two numbers, I would conclude that in the recent decade, South Africa is more dangerous in terms of shark attacks on people.
@@ -125,7 +127,7 @@ aus_sa
 
 
 
-Note:
+## Note
 There are a few ethical issues with this data. The sources from which this data is extracted vary, with some having questionable validity.For example, some cases date back to B.C. The data collection method should be examined. Moreover, a significant amount of data is missing, as we discovered earlier, with more than half of the cases missing ‘Year’ values. This will impact the accuracy of the analysis results, considering that ‘Year’ is a crucial variable in our analysis.
 
 Furthermore, relying solely on the number of incidents and fatality rates may not provide enough information to support the argument that South Africa is more dangerous in terms of shark attacks. Other variables, such as related policies and medical resources, may also influence the likelihood of people getting injured by sharks and the fatality rate.
